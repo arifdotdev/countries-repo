@@ -1,15 +1,26 @@
 export interface CountryType {
-    name: {
-        common: String
-        official: String
-    },
-    ccn3: {
-        ccn3: string
-    },
+  name: {
+    common: string;
+    official: string;
+  };
+
+  ccn3: {
+    ccn3: string;
+  };
+
+  flags: {
     flags: {
-        flags: {
-            png: String
-            alt: String
-        }
-    }
+      png: string;
+      svg: string;
+      alt: string;
+    };
+  };
+
+  population: {
+    population: number;
+  };
+
+  capital: {
+    capital: string;
+  };
 }
